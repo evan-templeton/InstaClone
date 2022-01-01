@@ -16,6 +16,23 @@
 		B3BB19942780AC62007F92C4 /* InstaCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BB19932780AC62007F92C4 /* InstaCloneTests.swift */; };
 		B3BB199E2780AC62007F92C4 /* InstaCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BB199D2780AC62007F92C4 /* InstaCloneUITests.swift */; };
 		B3BB19A02780AC62007F92C4 /* InstaCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BB199F2780AC62007F92C4 /* InstaCloneUITestsLaunchTests.swift */; };
+		B3BB19D42780B0F0007F92C4 /* PostInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BB19D22780B0F0007F92C4 /* PostInfoCell.swift */; };
+		B3BB19D82780B176007F92C4 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BB19D62780B176007F92C4 /* PostImageCell.swift */; };
+		B3BB19D92780B176007F92C4 /* PostImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3BB19D72780B176007F92C4 /* PostImageCell.xib */; };
+		B3BB19DC2780B18A007F92C4 /* PostInteractionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BB19DA2780B18A007F92C4 /* PostInteractionCell.swift */; };
+		B3BB19DD2780B18A007F92C4 /* PostInteractionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3BB19DB2780B18A007F92C4 /* PostInteractionCell.xib */; };
+		B3BB19E02780B1A0007F92C4 /* PostLikesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BB19DE2780B1A0007F92C4 /* PostLikesCell.swift */; };
+		B3BB19E12780B1A0007F92C4 /* PostLikesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3BB19DF2780B1A0007F92C4 /* PostLikesCell.xib */; };
+		B3BB19E42780B1C6007F92C4 /* PostCaptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BB19E22780B1C6007F92C4 /* PostCaptionCell.swift */; };
+		B3BB19E52780B1C6007F92C4 /* PostCaptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3BB19E32780B1C6007F92C4 /* PostCaptionCell.xib */; };
+		B3BB19E82780B1DA007F92C4 /* PostDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BB19E62780B1DA007F92C4 /* PostDateCell.swift */; };
+		B3BB19E92780B1DA007F92C4 /* PostDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3BB19E72780B1DA007F92C4 /* PostDateCell.xib */; };
+		B3BB19EC2780B1EE007F92C4 /* PostCommentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BB19EA2780B1EE007F92C4 /* PostCommentsCell.swift */; };
+		B3BB19ED2780B1EE007F92C4 /* PostCommentsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3BB19EB2780B1EE007F92C4 /* PostCommentsCell.xib */; };
+		B3BB19F72780B545007F92C4 /* PostInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BB19F62780B545007F92C4 /* PostInfoModel.swift */; };
+		B3BB19F92780B75A007F92C4 /* PostInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3BB19F82780B75A007F92C4 /* PostInfoCell.xib */; };
+		B3D2525C2780BB1400DAC6C0 /* PostInteractionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D2525B2780BB1400DAC6C0 /* PostInteractionModel.swift */; };
+		B3D252602780DF8C00DAC6C0 /* PostCommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D2525F2780DF8C00DAC6C0 /* PostCommentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +66,23 @@
 		B3BB19992780AC62007F92C4 /* InstaCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BB199D2780AC62007F92C4 /* InstaCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaCloneUITests.swift; sourceTree = "<group>"; };
 		B3BB199F2780AC62007F92C4 /* InstaCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3BB19D22780B0F0007F92C4 /* PostInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInfoCell.swift; sourceTree = "<group>"; };
+		B3BB19D62780B176007F92C4 /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
+		B3BB19D72780B176007F92C4 /* PostImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostImageCell.xib; sourceTree = "<group>"; };
+		B3BB19DA2780B18A007F92C4 /* PostInteractionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInteractionCell.swift; sourceTree = "<group>"; };
+		B3BB19DB2780B18A007F92C4 /* PostInteractionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostInteractionCell.xib; sourceTree = "<group>"; };
+		B3BB19DE2780B1A0007F92C4 /* PostLikesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostLikesCell.swift; sourceTree = "<group>"; };
+		B3BB19DF2780B1A0007F92C4 /* PostLikesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostLikesCell.xib; sourceTree = "<group>"; };
+		B3BB19E22780B1C6007F92C4 /* PostCaptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCaptionCell.swift; sourceTree = "<group>"; };
+		B3BB19E32780B1C6007F92C4 /* PostCaptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCaptionCell.xib; sourceTree = "<group>"; };
+		B3BB19E62780B1DA007F92C4 /* PostDateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDateCell.swift; sourceTree = "<group>"; };
+		B3BB19E72780B1DA007F92C4 /* PostDateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostDateCell.xib; sourceTree = "<group>"; };
+		B3BB19EA2780B1EE007F92C4 /* PostCommentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentsCell.swift; sourceTree = "<group>"; };
+		B3BB19EB2780B1EE007F92C4 /* PostCommentsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCommentsCell.xib; sourceTree = "<group>"; };
+		B3BB19F62780B545007F92C4 /* PostInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInfoModel.swift; sourceTree = "<group>"; };
+		B3BB19F82780B75A007F92C4 /* PostInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostInfoCell.xib; sourceTree = "<group>"; };
+		B3D2525B2780BB1400DAC6C0 /* PostInteractionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInteractionModel.swift; sourceTree = "<group>"; };
+		B3D2525F2780DF8C00DAC6C0 /* PostCommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +140,7 @@
 				B3BB19852780AC62007F92C4 /* Assets.xcassets */,
 				B3BB19872780AC62007F92C4 /* LaunchScreen.storyboard */,
 				B3BB198A2780AC62007F92C4 /* Info.plist */,
+				B3BB19EE2780B218007F92C4 /* Post Cells */,
 			);
 			path = InstaClone;
 			sourceTree = "<group>";
@@ -125,6 +160,86 @@
 				B3BB199F2780AC62007F92C4 /* InstaCloneUITestsLaunchTests.swift */,
 			);
 			path = InstaCloneUITests;
+			sourceTree = "<group>";
+		};
+		B3BB19EE2780B218007F92C4 /* Post Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B3BB19EF2780B2B1007F92C4 /* Post Info Cell */,
+				B3BB19F02780B2C0007F92C4 /* Post Image Cell */,
+				B3BB19F12780B2D5007F92C4 /* Post Interaction Cell */,
+				B3BB19F22780B2E0007F92C4 /* Post Likes Cell */,
+				B3BB19F32780B2E8007F92C4 /* Post Caption Cell */,
+				B3BB19F42780B2F0007F92C4 /* Post Date Cell */,
+				B3BB19F52780B2F9007F92C4 /* Post Comments Cell */,
+			);
+			path = "Post Cells";
+			sourceTree = "<group>";
+		};
+		B3BB19EF2780B2B1007F92C4 /* Post Info Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B3BB19F82780B75A007F92C4 /* PostInfoCell.xib */,
+				B3BB19D22780B0F0007F92C4 /* PostInfoCell.swift */,
+				B3BB19F62780B545007F92C4 /* PostInfoModel.swift */,
+			);
+			path = "Post Info Cell";
+			sourceTree = "<group>";
+		};
+		B3BB19F02780B2C0007F92C4 /* Post Image Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B3BB19D62780B176007F92C4 /* PostImageCell.swift */,
+				B3BB19D72780B176007F92C4 /* PostImageCell.xib */,
+			);
+			path = "Post Image Cell";
+			sourceTree = "<group>";
+		};
+		B3BB19F12780B2D5007F92C4 /* Post Interaction Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B3BB19DA2780B18A007F92C4 /* PostInteractionCell.swift */,
+				B3BB19DB2780B18A007F92C4 /* PostInteractionCell.xib */,
+				B3D2525B2780BB1400DAC6C0 /* PostInteractionModel.swift */,
+			);
+			path = "Post Interaction Cell";
+			sourceTree = "<group>";
+		};
+		B3BB19F22780B2E0007F92C4 /* Post Likes Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B3BB19DE2780B1A0007F92C4 /* PostLikesCell.swift */,
+				B3BB19DF2780B1A0007F92C4 /* PostLikesCell.xib */,
+			);
+			path = "Post Likes Cell";
+			sourceTree = "<group>";
+		};
+		B3BB19F32780B2E8007F92C4 /* Post Caption Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B3BB19E22780B1C6007F92C4 /* PostCaptionCell.swift */,
+				B3BB19E32780B1C6007F92C4 /* PostCaptionCell.xib */,
+			);
+			path = "Post Caption Cell";
+			sourceTree = "<group>";
+		};
+		B3BB19F42780B2F0007F92C4 /* Post Date Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B3BB19E62780B1DA007F92C4 /* PostDateCell.swift */,
+				B3BB19E72780B1DA007F92C4 /* PostDateCell.xib */,
+			);
+			path = "Post Date Cell";
+			sourceTree = "<group>";
+		};
+		B3BB19F52780B2F9007F92C4 /* Post Comments Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B3BB19EA2780B1EE007F92C4 /* PostCommentsCell.swift */,
+				B3BB19EB2780B1EE007F92C4 /* PostCommentsCell.xib */,
+				B3D2525F2780DF8C00DAC6C0 /* PostCommentModel.swift */,
+			);
+			path = "Post Comments Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +346,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3BB19E52780B1C6007F92C4 /* PostCaptionCell.xib in Resources */,
+				B3BB19DD2780B18A007F92C4 /* PostInteractionCell.xib in Resources */,
+				B3BB19E12780B1A0007F92C4 /* PostLikesCell.xib in Resources */,
+				B3BB19F92780B75A007F92C4 /* PostInfoCell.xib in Resources */,
+				B3BB19E92780B1DA007F92C4 /* PostDateCell.xib in Resources */,
 				B3BB19892780AC62007F92C4 /* LaunchScreen.storyboard in Resources */,
+				B3BB19D92780B176007F92C4 /* PostImageCell.xib in Resources */,
 				B3BB19862780AC62007F92C4 /* Assets.xcassets in Resources */,
 				B3BB19842780AC61007F92C4 /* Main.storyboard in Resources */,
+				B3BB19ED2780B1EE007F92C4 /* PostCommentsCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +380,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3BB19D42780B0F0007F92C4 /* PostInfoCell.swift in Sources */,
+				B3BB19EC2780B1EE007F92C4 /* PostCommentsCell.swift in Sources */,
 				B3BB19812780AC61007F92C4 /* ViewController.swift in Sources */,
 				B3BB197D2780AC61007F92C4 /* AppDelegate.swift in Sources */,
+				B3D2525C2780BB1400DAC6C0 /* PostInteractionModel.swift in Sources */,
+				B3BB19E02780B1A0007F92C4 /* PostLikesCell.swift in Sources */,
+				B3BB19E42780B1C6007F92C4 /* PostCaptionCell.swift in Sources */,
+				B3BB19F72780B545007F92C4 /* PostInfoModel.swift in Sources */,
+				B3BB19E82780B1DA007F92C4 /* PostDateCell.swift in Sources */,
+				B3D252602780DF8C00DAC6C0 /* PostCommentModel.swift in Sources */,
+				B3BB19D82780B176007F92C4 /* PostImageCell.swift in Sources */,
+				B3BB19DC2780B18A007F92C4 /* PostInteractionCell.swift in Sources */,
 				B3BB197F2780AC61007F92C4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +577,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,7 +589,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -473,6 +606,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,7 +618,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
